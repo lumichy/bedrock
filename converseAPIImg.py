@@ -75,9 +75,9 @@ def main():
     logging.basicConfig(level=logging.INFO,
                         format="%(levelname)s: %(message)s")
 
-    model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
+    model_id = "apac.anthropic.claude-sonnet-4-20250514-v1:0"
     input_text = "What's in this image?"
-    input_image = "path/to/image"
+    input_image = "C:\\Users\\lumic\\OneDrive\\画像\\2021_01_09 16_23 Office Lens 4.jpeg"
 
     try:
         session = boto3.Session(profile_name="AdministratorAccess-057286248359")
